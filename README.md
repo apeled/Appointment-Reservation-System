@@ -1,7 +1,7 @@
 # Appointment Reservation System
 
 ## Table of Contents
-- [Overview](#overview)
+- [Project Overview](#project-overview)
 - [Repository Structure](#repository-structure)
 - [Objectives](#objectives)
 - [System Design](#system-design)
@@ -16,25 +16,22 @@ This project was developed to gain experience with database application developm
 
 ## Repository Structure
 
-| Directories | Brief Description |
-|-------------|-------------------|
-| `db/` | This directory holds all of the important components related to the database. |
-| `model/` | This directory holds all the class files for the data model. |
-| `Scheduler.py` | The main entry point to the command-line interface application. |
-| `ConnectionManager.py` | A wrapper class for connecting to the database. |
-| `src.main.resources/` | Contains SQL create statements for tables, and an ER diagram of the design. |
-|`.gitignore`        | A file specifying patterns of files/directories to ignore in git operations. |
-|`LICENSE`           | This file contains the license under which the project is released. |
-|`README.md`         | This file contains detailed information about the project, its architecture, and its usage. |
+| Project Directories | Brief Description |
+|---|---|
+| [`/src`](./src) | Contains the source code for the project, subdivided into [`/resources`](./src/resources) for the SQL script and design document, and [`/scheduler`](./src/scheduler) for the application's scheduling functions. |
+| `.gitignore` | A file specifying patterns of files/directories to ignore in git operations. |
+| `LICENSE` | This file contains the license under which the project is released. |
+| `README.md` | This file contains detailed information about the project, its architecture, and its usage. |
+| `requirements.txt` | This file lists the Python dependencies that need to be installed to run the project. |
 
 ## Objectives
 The primary objectives of this project were:
-- Designing the database schema with an E/R diagram and create table statements.
+- Designing the database schema with an E/R diagram and `create table` statements.
 - Implementing the code that stores patient information and allows users to interactively schedule their vaccine appointments.
 
 <p align="center">
-  <img src="images//pipeline.png"><br>
-  <em>Fig.0 - Abstract Pipeline for Heart Rate Detection.</em>
+  <img src="src//resources//ER_design.png"><br>
+  <em>Fig.0 - E/R diagram of the database schema.</em>
 </p>
 
 ## System Design
@@ -66,7 +63,7 @@ While the current version of the application fulfills all the specified requirem
 - Addition of a graphical user interface (GUI) to provide a more intuitive user experience.
 - Implementing additional error checking to handle all possible exceptions.
 - Improving the login system to include features like password recovery and multi-factor authentication.
-- Adding features like appointment rescheduling or cancellation.
+
 
 ## Contributors
 - **[Contributor's Name]**: [Short bio or description of contributions]
