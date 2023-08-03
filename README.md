@@ -69,6 +69,6 @@ While the current version of the application fulfills all the specified requirem
 
 
 ## Contributors
-- **[Contributor's Name]**: [Short bio or description of contributions]
+I would like to extend my heartfelt thanks to the University of Washington and the teaching staff of CSE 414 Autumn 2022 for their invaluable guidance and support throughout this project.
 
-Please replace `[Contributor's Name]` with the actual contributors' names and provide a short bio or description of what they contributed to the project.
+Special thanks to Ryan Maas, the instructor of the course, whose knowledge, insight, and dedication have been instrumental to the successful completion of our Appointment Reservation System project.

@@ -8,13 +8,7 @@ import datetime
 import math
 
 
-'''
-objects to keep track of the currently logged-in user
-Note: it is always true that at most one of currentCaregiver and currentPatient is not null
-        since only one user can be logged-in at a time
-'''
 current_patient = None
-
 current_caregiver = None
 
 
@@ -681,17 +675,17 @@ def start():
     stop = False
     print()
     print(" *** Please enter one of the following commands *** ")
-    print("> create_patient <username> <password>")  # //TODO: implement create_patient (Part 1)
+    print("> create_patient <username> <password>")
     print("> create_caregiver <username> <password>")
-    print("> login_patient <username> <password>")  # // TODO: implement login_patient (Part 1)
+    print("> login_patient <username> <password>")
     print("> login_caregiver <username> <password>")
-    print("> search_caregiver_schedule <date>")  # // TODO: implement search_caregiver_schedule (Part 2)
-    print("> reserve <date> <vaccine>")  # // TODO: implement reserve (Part 2)
+    print("> search_caregiver_schedule <date>")
+    print("> reserve <date> <vaccine>")
     print("> upload_availability <date>")
-    print("> cancel <appointment_id>")  # // TODO: implement cancel (extra credit)
+    print("> cancel <appointment_id>")
     print("> add_doses <vaccine> <number>")
-    print("> show_appointments")  # // TODO: implement show_appointments (Part 2)
-    print("> logout")  # // TODO: implement logout (Part 2)
+    print("> show_appointments")
+    print("> logout")
     print("> Quit")
     print()
     while not stop:
@@ -743,13 +737,6 @@ def start():
 
 
 if __name__ == "__main__":
-    '''
-    // pre-define the three types of authorized vaccines
-    // note: it's a poor practice to hard-code these values, but we will do this ]
-    // for the simplicity of this assignment
-    // and then construct a map of vaccineName -> vaccineObject
-    '''
-
     # start command line
     print()
     print("Welcome to the COVID-19 Vaccine Reservation Scheduling Application!")
