@@ -30,16 +30,16 @@ The primary objectives of this project were:
 - Implementing the code that stores patient information and allows users to interactively schedule their vaccine appointments.
 
 <p align="center">
-  <img src="src//resources//ER_design.png"><br>
-  <em>Fig.0 - E/R diagram of the database schema.</em>
+  <img src="src//resources//ER_diagram.png"><br>
+  <em>Fig.0 - E/R diagram of the designed database schema.</em>
 </p>
 
 ## System Design
 The appointment reservation system was designed with a focus on user interaction and data management. It allows for account creation, login, caregiver schedule searching, appointment reservation, viewing scheduled appointments, and user logout.
 
 <p align="center">
-  <img src="images//pipeline.png"><br>
-  <em>Fig.0 - Abstract Pipeline for Heart Rate Detection.</em>
+  <img src="src//resources//application_home.png"><br>
+  <em>Fig.1 - Home Page of the terminal application that presents the user with all the features.</em>
 </p>
 
 
@@ -48,12 +48,15 @@ To use this application, Python, pymssql, and Anaconda need to be installed on y
 
 ## Features
 This system implements the following features:
-1. Account creation for patients
-2. Patient login
-3. Search for caregiver schedule
+1. Account creation for patients and caregivers
+2. Login for existing patients and caregivers
+3. Search for a caregiver's schedule
 4. Reserving an appointment
-5. Displaying scheduled appointments for the current user
-6. User logout
+5. Uploading the caregiver's availability
+6. Cancelling an appointment
+7. Increasing available vaccine dosages
+8. Displaying scheduled appointments for the current user
+9. User logout
 
 ## Achievements
 Through this project, we successfully implemented a command-line interface application that allows users to create accounts, log in, search for available caregivers, reserve appointments, view scheduled appointments, and log out. We also designed and implemented a database schema to support these operations.
