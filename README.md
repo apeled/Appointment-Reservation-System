@@ -12,7 +12,7 @@
 - [Contributors](#contributors)
 
 ## Project Overview
-This project was developed to gain experience with database application development and learn how to use SQL within Python via pymssql. We have built an appointment scheduler for vaccinations, where users are patients and caregivers managing vaccine stock and appointments. The application is designed to run on a command line terminal and connect to a database server on a Microsoft Azure account.
+This project was developed to gain experience with database application development and learn how to use SQL within Python via pymssql. I have built an appointment scheduler for vaccinations, where users are patients and caregivers managing vaccine stock and appointments. The application is designed to run on a command line terminal and connect to a database server on a Microsoft Azure account.
 
 ## Repository Structure
 
@@ -59,7 +59,7 @@ This system implements the following features:
 9. User logout
 
 ## Achievements
-Through this project, we successfully implemented a command-line interface application that allows users to create accounts, log in, search for available caregivers, reserve appointments, view scheduled appointments, and log out. We also designed and implemented a database schema to support these operations.
+Through this project, I successfully implemented a command-line interface application that allows users to create accounts, log in, search for available caregivers, reserve appointments, view scheduled appointments, and log out. I also designed and implemented a database schema to support these operations.
 
 ## Future Work
 While the current version of the application fulfills all the specified requirements, there are several potential enhancements that could make it more robust and user-friendly:
